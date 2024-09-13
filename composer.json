@@ -1,0 +1,12 @@
+{
+    "name": "sohanurahman22/bluehouse",
+    "description": "Minimal framework use by php",
+    "type": "no",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sohanur Rahman"
+        }
+    ],
+    "require": {}
+}
