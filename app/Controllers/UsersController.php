@@ -1,12 +1,17 @@
 <?php 
 
-namespace App\User;
+namespace App\Controllers;
 
-Class UsersController{
+use App\Controllers\Controller;
+
+Class UsersController extends Controller{
 
 
     public function index(){
-        echo "User home page";
+        
+        return view("users/user",[
+            "data" => "Hello Data"
+        ]);
     }
     
 }

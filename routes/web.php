@@ -1,6 +1,6 @@
     <?php
 
-    use App\User\UsersController;
+use App\Controllers\UsersController;
 
     return [
 
